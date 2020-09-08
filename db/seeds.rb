@@ -7,9 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all 
 
+
 users = User.create(
     [
         {name: 'Leon'}
     ]
 
 )
+

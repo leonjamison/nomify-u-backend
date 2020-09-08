@@ -16,7 +16,12 @@ class NominationsController < ApplicationController
 
     def create
         nomination = Nomination.create(nomination_strong_params)
-        render json: nomination 
+        if nomination.valid?
+            render json: {nomination: nomination}, status: :created 
+        else 
+            render json: {errors: nomination.errors.full_messages},
+            status: :not_acceptable
+        end
     end
 
     def destroy
