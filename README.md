@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## NOMIFY-U-BACKEND
 
-Things you may want to cover:
 
-* Ruby version
+## Description 
+Rails backend application allowing a user to store movie objects when selecting their top 5 films for The Shoppies Entrepreneur Movie Awards.
 
-* System dependencies
 
-* Configuration
+## Technologies
+Rails, Postgrsql, and React (Front end repository can be found below)
 
-* Database creation
 
-* Database initialization
+## FrontEnd Repository
+https://github.com/leonjamison/Nomify-U
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Installation
+In the project directory, you can run:
 
-* Deployment instructions
-
-* ...
+## `rails s -p3001`
+Runs the app in the development mode.
+Open http://localhost:3001 to view it in the browser. 
