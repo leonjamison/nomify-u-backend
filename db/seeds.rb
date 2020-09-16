@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all 
-
+# need to ensure id start from 1 when nomination obj is destroyed
 
 users = User.create(
     [
